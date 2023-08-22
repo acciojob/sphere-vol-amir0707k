@@ -1,6 +1,6 @@
    function volume_sphere(){
         const radius = parseFloat(document.getElementById("radius").value);
-        event.preventDefault();
+        //event.preventDefault();
         console.log(radius);
         console.log(typeof radius)
         const volume = (4/3)*Math.PI*Math.pow(radius,3);
